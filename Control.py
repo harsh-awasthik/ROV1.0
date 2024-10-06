@@ -186,11 +186,11 @@ def GUI(control): #GUI Thread --> sending data to BS
 if __name__ == '__main__':
     control = Control(9, 11, 16, 8) #--> GPIO Pin Values
 
-    control_thread = threading.Thread(target=run, args=(control,))
-    gui_thread = threading.Thread(target=GUI, args=(control,))
+    # control_thread = threading.Thread(target=run, args=(control,))
+    # gui_thread = threading.Thread(target=GUI, args=(control,))
 
-    control_thread.start()
-    gui_thread.start()
+    # control_thread.start()
+    # gui_thread.start()
 
-    control_thread.join()
-    gui_thread.join()
+    # control_thread.join()
+    # gui_thread.join()
