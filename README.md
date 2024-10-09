@@ -74,5 +74,8 @@ This is the major project of students of ZHCET, AMU under the aegis of MTS AUV Z
 
 #### #### End of first time Commands {Commands 5-8 has to be run everytime}.
 
-8. ```sudo usbip attach -r "IP Address" -b "Bus ID"```
+1. ```sudo usbip attach -r "IP Address" -b "Bus ID"```
 
+2. Run ```sudo pigpiod``` on Terminal.
+   
+3. Run Your main python file.
